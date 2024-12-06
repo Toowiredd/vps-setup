@@ -1,0 +1,1 @@
+# Example SSH Config\nHost github.com\n  User git\n  IdentityFile ~/.ssh/github_key\n\nHost *\n  PasswordAuthentication no\n  PermitRootLogin no

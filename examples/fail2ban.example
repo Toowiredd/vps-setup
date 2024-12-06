@@ -1,0 +1,1 @@
+# Example Fail2Ban Config\n[DEFAULT]\nbantime = 1h\nfindtime = 10m\nmaxretry = 5\n\n[sshd]\nenabled = true\nport = ssh

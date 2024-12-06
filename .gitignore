@@ -1,0 +1,26 @@
+# SSH Keys and configs
+.ssh/
+*.pem
+*.key
+*_rsa*
+*_ed25519*
+
+# Config files with sensitive data
+*.conf
+*.config
+config/*
+
+# Environment variables and secrets
+.env
+*.env
+.env.*
+secrets.*
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*.bak
+*.backup
+*.swp
