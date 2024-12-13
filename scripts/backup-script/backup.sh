@@ -1,7 +1,7 @@
 #!/bin/bash
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 BACKUP_DIR="/tmp/backup_$TIMESTAMP"
-BUCKET_NAME="tysbucket"
+BUCKET_NAME="toowired_bucket"
 mkdir -p "$BACKUP_DIR"
 cp -r /etc/ssh "$BACKUP_DIR/"
 cp -r /etc/fail2ban "$BACKUP_DIR/"
